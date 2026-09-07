@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/webhooks/elitesms",
+      "destination": "/api/webhooks/elitesms"
+    },
+    {
+      "source": "/healthz",
+      "destination": "/api/healthz"
+    }
+  ]
+}
